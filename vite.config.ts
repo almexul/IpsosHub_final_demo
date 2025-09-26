@@ -11,7 +11,7 @@ const __dirname = path.dirname(__filename)
 export default defineConfig({
   plugins: [react(),
     tailwindcss()
-  ],
+  ],base: '/IpsosHub_final_demo',
    resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),
